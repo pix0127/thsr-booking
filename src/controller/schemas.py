@@ -4,7 +4,7 @@ from datetime import date, datetime
 from enum import Enum
 from typing import Mapping, Any, Optional
 
-from pydantic import BaseModel as PydanticBaseModel, Field, validator
+from pydantic import BaseModel as PydanticBaseModel, ConfigDict, Field, field_validator
 
 
 DAYS_BEFORE_BOOKING_AVAILABLE = 90
@@ -89,9 +89,9 @@ class ParseAvailTrain:
 
 
 class BaseModel(PydanticBaseModel):
-    class Config:
-        validate_by_name = True
-        json_encoders = {date: lambda dt: dt.strftime("%Y/%m/%d")}
+    model_config = ConfigDict(
+        validate_by_name=True,
+    )
 
 
 class BookingModel(BaseModel):
@@ -115,25 +115,29 @@ class BookingModel(BaseModel):
     elder_ticket_num: str = Field("0E", alias="ticketPanel:rows:3:ticketAmount")
     college_ticket_num: str = Field("0P", alias="ticketPanel:rows:4:ticketAmount")
 
-    @validator("start_station", "dest_station")
+    @field_validator("start_station", "dest_station")
+    @classmethod
     def check_station(cls, station):
         if station not in range(1, 13):
             raise ValueError(f"Unknown station number: {station}")
         return station
 
-    @validator("search_by")
+    @field_validator("search_by")
+    @classmethod
     def check_search_by(cls, value):
         if not re.match(r"radio\d+", value):
             raise ValueError(f"Invalid search_by format: {value}")
         return value
 
-    @validator("types_of_trip")
+    @field_validator("types_of_trip")
+    @classmethod
     def check_types_of_trip(cls, value):
         if value not in [0, 1]:
             raise ValueError(f"Invalid type of trip: {value}")
         return value
 
-    @validator("outbound_date", "inbound_date")
+    @field_validator("outbound_date", "inbound_date")
+    @classmethod
     def check_date(cls, value):
         if value is None:
             return date.today().strftime("%Y/%m/%d")
@@ -149,37 +153,43 @@ class BookingModel(BaseModel):
             raise ValueError(f"Target date should not be ealier than today: {target_date}")
         return target_date.strftime("%Y/%m/%d")
 
-    @validator("inbound_time", "outbound_time")
+    @field_validator("inbound_time", "outbound_time")
+    @classmethod
     def check_time(cls, value):
         if value not in AVAILABLE_TIME_TABLE:
             raise ValueError(f"Unknown time string: {value}")
         return value
 
-    @validator("adult_ticket_num")
+    @field_validator("adult_ticket_num")
+    @classmethod
     def check_adult_ticket_num(cls, value):
         if not re.match(r"\d+F", value):
             raise ValueError(f"Invalid adult ticket num format: {value}")
         return value
 
-    @validator("child_ticket_num")
+    @field_validator("child_ticket_num")
+    @classmethod
     def check_child_ticket_num(cls, value):
         if not re.match(r"\d+H", value):
             raise ValueError(f"Invalid child ticket num format: {value}")
         return value
 
-    @validator("disabled_ticket_num")
+    @field_validator("disabled_ticket_num")
+    @classmethod
     def check_disabled_ticket_num(cls, value):
         if not re.match(r"\d+W", value):
             raise ValueError(f"Invalid disabled ticket num format: {value}")
         return value
 
-    @validator("elder_ticket_num")
+    @field_validator("elder_ticket_num")
+    @classmethod
     def check_elder_ticket_num(cls, value):
         if not re.match(r"\d+E", value):
             raise ValueError(f"Invalid elder ticket num format: {value}")
         return value
 
-    @validator("college_ticket_num")
+    @field_validator("college_ticket_num")
+    @classmethod
     def check_college_ticket_num(cls, value):
         if not re.match(r"\d+P", value):
             raise ValueError(f"Invalid college ticket num format: {value}")
