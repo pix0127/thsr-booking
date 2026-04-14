@@ -1,0 +1,770 @@
+{
+  "version": "2.0",
+  "created_at": "",
+  "caches": {
+    "tdx:od:板橋:左營:2026-04-14": {
+      "tdx_date": "2026-04-14",
+      "cached_time": 1776131376.691326,
+      "total_trains": 63,
+      "trains_data": [
+        {
+          "train_no": "0803",
+          "departure_time": "06:34",
+          "arrival_time": "08:40",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0203",
+          "departure_time": "06:38",
+          "arrival_time": "08:15",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0603",
+          "departure_time": "07:00",
+          "arrival_time": "08:50",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0805",
+          "departure_time": "07:19",
+          "arrival_time": "09:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0109",
+          "departure_time": "07:39",
+          "arrival_time": "09:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0609",
+          "departure_time": "07:55",
+          "arrival_time": "09:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0205",
+          "departure_time": "07:59",
+          "arrival_time": "09:30",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0809",
+          "departure_time": "08:19",
+          "arrival_time": "10:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0613",
+          "departure_time": "08:29",
+          "arrival_time": "10:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0207",
+          "departure_time": "08:39",
+          "arrival_time": "10:10",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0615",
+          "departure_time": "08:55",
+          "arrival_time": "10:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0813",
+          "departure_time": "09:19",
+          "arrival_time": "11:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0619",
+          "departure_time": "09:29",
+          "arrival_time": "11:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0117",
+          "departure_time": "09:39",
+          "arrival_time": "11:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0621",
+          "departure_time": "09:55",
+          "arrival_time": "11:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0817",
+          "departure_time": "10:19",
+          "arrival_time": "12:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0625",
+          "departure_time": "10:29",
+          "arrival_time": "12:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0121",
+          "departure_time": "10:39",
+          "arrival_time": "12:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0627",
+          "departure_time": "10:55",
+          "arrival_time": "12:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0821",
+          "departure_time": "11:19",
+          "arrival_time": "13:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0125",
+          "departure_time": "11:39",
+          "arrival_time": "13:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0633",
+          "departure_time": "11:55",
+          "arrival_time": "13:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0825",
+          "departure_time": "12:19",
+          "arrival_time": "14:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0637",
+          "departure_time": "12:29",
+          "arrival_time": "14:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0129",
+          "departure_time": "12:39",
+          "arrival_time": "14:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0639",
+          "departure_time": "12:55",
+          "arrival_time": "14:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0829",
+          "departure_time": "13:19",
+          "arrival_time": "15:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0643",
+          "departure_time": "13:29",
+          "arrival_time": "15:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0133",
+          "departure_time": "13:39",
+          "arrival_time": "15:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0645",
+          "departure_time": "13:55",
+          "arrival_time": "15:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0833",
+          "departure_time": "14:19",
+          "arrival_time": "16:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0649",
+          "departure_time": "14:29",
+          "arrival_time": "16:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0137",
+          "departure_time": "14:39",
+          "arrival_time": "16:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0651",
+          "departure_time": "14:55",
+          "arrival_time": "16:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0837",
+          "departure_time": "15:19",
+          "arrival_time": "17:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0655",
+          "departure_time": "15:29",
+          "arrival_time": "17:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0141",
+          "departure_time": "15:39",
+          "arrival_time": "17:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0657",
+          "departure_time": "15:55",
+          "arrival_time": "17:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0841",
+          "departure_time": "16:19",
+          "arrival_time": "18:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0661",
+          "departure_time": "16:29",
+          "arrival_time": "18:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0145",
+          "departure_time": "16:39",
+          "arrival_time": "18:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0663",
+          "departure_time": "16:55",
+          "arrival_time": "18:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "1241",
+          "departure_time": "16:59",
+          "arrival_time": "18:30",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0845",
+          "departure_time": "17:19",
+          "arrival_time": "19:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0667",
+          "departure_time": "17:29",
+          "arrival_time": "19:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0149",
+          "departure_time": "17:39",
+          "arrival_time": "19:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0669",
+          "departure_time": "17:55",
+          "arrival_time": "19:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0849",
+          "departure_time": "18:19",
+          "arrival_time": "20:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0673",
+          "departure_time": "18:29",
+          "arrival_time": "20:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0153",
+          "departure_time": "18:39",
+          "arrival_time": "20:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0675",
+          "departure_time": "18:55",
+          "arrival_time": "20:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0249",
+          "departure_time": "18:59",
+          "arrival_time": "20:30",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0853",
+          "departure_time": "19:19",
+          "arrival_time": "21:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0679",
+          "departure_time": "19:29",
+          "arrival_time": "21:20",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0157",
+          "departure_time": "19:39",
+          "arrival_time": "21:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0681",
+          "departure_time": "19:55",
+          "arrival_time": "21:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0857",
+          "departure_time": "20:19",
+          "arrival_time": "22:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0161",
+          "departure_time": "20:39",
+          "arrival_time": "22:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0687",
+          "departure_time": "20:55",
+          "arrival_time": "22:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0861",
+          "departure_time": "21:19",
+          "arrival_time": "23:25",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0165",
+          "departure_time": "21:39",
+          "arrival_time": "23:05",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "0693",
+          "departure_time": "21:50",
+          "arrival_time": "23:40",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        },
+        {
+          "train_no": "1985",
+          "departure_time": "22:18",
+          "arrival_time": "23:45",
+          "origin_station": "板橋",
+          "destination_station": "左營",
+          "direction": "southbound",
+          "operating_days": {
+            "daily": true
+          },
+          "operating_info": "每日"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-04-14T09:49:36.691346"
+}

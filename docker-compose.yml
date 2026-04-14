@@ -1,0 +1,19 @@
+services:
+  thsr-ticket:
+    build: .
+    image: thsr-ticket:latest
+    container_name: thsr-ticket
+    stdin_open: true
+    tty: true
+    ports:
+      - "8501:8501"
+    volumes:
+      - data:/app/src/.db
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TERM=xterm-256color
+    restart: unless-stopped
+
+volumes:
+  data:
+    driver: local

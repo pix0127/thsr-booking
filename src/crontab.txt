@@ -1,0 +1,1 @@
+0 * * * * cd /app/src && /usr/local/bin/python main.py -r >> /var/log/cron_booking.log 2>&1
