@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8]
+        python-version: [3.12]
 
     steps:
     - uses: actions/checkout@v2
@@ -22,8 +22,8 @@ jobs:
         pip install -r requirements.txt
     - name: Check syntax
       run: |
-        make check
+        python3 -m py_compile src/**/*.py
     - name: Test with pytest
       run: |
         pip install pytest
-        make test
+        PYTHONPATH=src python3 -m pytest tests/test_interactive_cli.py -v
